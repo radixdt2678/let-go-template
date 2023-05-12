@@ -1,0 +1,1177 @@
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--text-primary: #ffefd5;
+	--text-secondary: #b75a74;
+	--text-white: white;
+	--text-black: black;
+	--bg-primary: #b75a74;
+	--bg-secondary: #ffefd5;
+	--bg-secondary-700: #e7d5b7;
+	--bg-white: white;
+	--bg-black: black;
+	--bg-brown-800: #29141a;
+}
+
+/* text-color */
+.text-primary {
+	color: var(--text-primary);
+}
+
+.text-secondary {
+	color: var(--text-secondary);
+}
+
+.text-white {
+	color: var(--text-white);
+}
+
+.text-black {
+	color: var(--text-black);
+}
+
+/* bg - color */
+.bg-primary {
+	background-color: var(--bg-primary);
+}
+
+.bg-scondary {
+	background-color: var(--bg-secondary);
+}
+
+.bg-white {
+	background-color: var(--bg-white);
+}
+
+.bg-black {
+	background-color: var(--bg-black);
+}
+
+.bg-brown-800 {
+	background-color: var(--bg-brown-800);
+}
+
+/* font family */
+@font-face {
+	font-family: "Montserrat-bold";
+	src: url(../font/Montserrat-Bold.woff), url(../font/Montserrat-Bold.woff2);
+}
+
+@font-face {
+	font-family: "Montserrat-semiBold";
+	src: url(../font/Montserrat-SemiBold.woff), url(../font/Montserrat-SemiBold.woff2);
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url(../font/Montserrat-Regular.woff), url(../font/Montserrat-Regular.woff2);
+}
+
+@font-face {
+	font-family: "Montserrat-Extrabold";
+	src: url(../font/Montserrat-ExtraBold.woff), url(../font/Montserrat-ExtraBold.woff2);
+}
+
+/*  */
+.font-Montserrat-bold {
+	font-family: "Montserrat-bold", sans-serif;
+}
+
+.font-Montserrat {
+	font-family: "Montserrat", sans-serif;
+}
+
+.font-Montserrat-Extrabold {
+	font-family: "Montserrat-Extrabold", sans-serif;
+}
+
+.font-Montserrat-semiBold {
+	font-family: "Montserrat-semiBold", sans-serif;
+}
+
+/* Font-size */
+.font-17 {
+	font-size: 17px;
+}
+
+.font-23 {
+	font-size: 23px;
+}
+
+.font-25 {
+	font-size: 25px;
+}
+
+.font-28 {
+	font-size: 28px;
+}
+
+.font-30 {
+	font-size: 30px;
+}
+
+.font-33 {
+	font-size: 33px;
+}
+
+.font-35 {
+	font-size: 35px;
+}
+
+.font-42 {
+	font-size: 42px;
+}
+
+.font-62 {
+	font-size: 62px;
+}
+
+.font-64 {
+	font-size: 64px;
+}
+
+.font-75 {
+	font-size: 75px;
+}
+
+.font-78 {
+	font-size: 78px;
+}
+
+/* line-height */
+.line-height-42 {
+	line-height: 42px;
+}
+
+/*  */
+.border-redius-50 {
+	border-radius: 50%;
+}
+
+.border-primary {
+	border: 5px solid var(--text-secondary);
+	border-radius: 50%;
+	height: 276px;
+	width: 274px;
+}
+
+.object-fit-cover {
+	object-fit: cover;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+/* width */
+.col-4 {
+	width: 33.3333333333%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-7 {
+	width: 58.3333333333%;
+}
+
+.col-8 {
+	width: 66.6666666667%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+/* padding & margin */
+.pt-182 {
+	padding-top: 182px;
+}
+
+.pb-138 {
+	padding-bottom: 138px;
+}
+
+.pt-50 {
+	padding-top: 50px;
+}
+
+.pb-100 {
+	padding-bottom: 100px;
+}
+
+.mt-50 {
+	margin-top: 50px;
+}
+
+.pt-130 {
+	padding-top: 130px;
+}
+
+.pb-160 {
+	padding-bottom: 160px;
+}
+
+.pb-50 {
+	padding-bottom: 50px;
+}
+
+.pr-50 {
+	padding-right: 55px;
+}
+
+/*  */
+.p-0 {
+	padding: 0;
+}
+
+.pt-1 {
+	padding-top: 4px;
+}
+
+.pt-2 {
+	padding-top: 8px;
+}
+
+.pb-1 {
+	padding-bottom: 4px;
+}
+
+.pb-3 {
+	padding-bottom: 12px;
+}
+
+/*  */
+.mb-3 {
+	margin-bottom: 1rem;
+}
+
+.m-0 {
+	margin: 0;
+}
+
+.mx-auto {
+	margin: 0 auto;
+}
+
+/* global Css End */
+body {
+	margin: 0;
+	font-family: "Montserrat", sans-serif;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+}
+
+.img-fluid {
+	/* max-width: 100%;
+	height: auto; */
+	width: 7vw;
+	height: auto;
+	object-fit: cover;
+}
+
+/*  */
+.checkbtn {
+	display: none;
+}
+#check {
+	display: none;
+}
+.checkbtn {
+	font-size: 30px;
+	cursor: pointer;
+}
+
+/* display */
+.d-flex {
+	display: flex;
+}
+
+.d-block {
+	display: block;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-end {
+	text-align: end;
+}
+
+/* flex propertice */
+.justify-content-between {
+	justify-content: space-between;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.align-item-center {
+	align-items: center;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+/* Position */
+.position-relative {
+	position: relative;
+}
+
+.position-absolute {
+	position: absolute;
+}
+
+/*  */
+/*  */
+/* Button */
+.btn {
+	border-radius: 33px;
+	border: 1px solid#e7d5b7;
+	padding: 20px 85px 20px 85px;
+}
+
+.btn:hover {
+	background-color: var(--bg-primary);
+	border: 1px solid var(--bg-secondary);
+	color: var(--text-primary);
+}
+
+/* Main Css  Start */
+.container {
+	max-width: 1320px;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* header */
+ul li {
+	list-style: none;
+}
+
+ul li a:hover {
+	border-bottom: 1px solid var(--text-primary);
+}
+
+.gap-20 {
+	gap: 20px;
+}
+
+.gap-50 {
+	gap: 50px;
+}
+
+.gap-100 {
+	gap: 200px;
+}
+
+/* banner-section */
+.banner-section,
+.phoebe-section {
+	background-image: url(../images/banner-imgs.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+/* our team */
+.our-team-cantainer,
+.statistics-container,
+.tour-container,
+.phoebe-container,
+.subcribe-container {
+	overflow: hidden;
+}
+
+.our-team-cantainer::before,
+.subcribe-container::before,
+.statistics-container::before {
+	content: " ";
+	position: absolute;
+	z-index: 10;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	top: 60%;
+	right: -75%;
+}
+
+/*  */
+.our-team-section {
+	background-image: url(../images/our-team-right.svg);
+	background-repeat: no-repeat;
+	background-position: bottom -30rem right -32rem;
+}
+
+.our-team-cantainer::before {
+	background-image: url(../images/out-team-left.svg);
+	top: 50%;
+	left: -43%;
+}
+
+.our-team-section .light-lamp-img {
+	top: -30px;
+	left: 20%;
+}
+
+.our-team-section .shoes-img {
+	right: 130px;
+}
+
+.our-team-section .frame-img {
+	left: -25px;
+	bottom: calc(50% - 240px);
+	z-index: 99;
+}
+
+.our-team-section .knief-img {
+	right: -15px;
+	bottom: calc(50% - 130px);
+	z-index: 99;
+}
+
+.our-team-section .camera-img {
+	bottom: -4vw;
+	right: calc(50% - 100px);
+	z-index: 99;
+}
+
+
+.our-team-section .camera-img img {
+	transform: rotate(346deg);
+}
+
+/* time-to-hike */
+.time-to-hike .clock-img {
+	top: 50px;
+	left: 90px;
+}
+
+.time-to-hike .light-lamp-img {
+	right: 300px;
+	top: -30px;
+	z-index: 99;
+}
+
+/* Statistic secyion */
+.statistics-section {
+	background-image: url(../images/state-down-right.svg);
+	background-repeat: no-repeat;
+	background-position: bottom -26rem right -36rem;
+}
+
+.statistics-container::before {
+	background-image: url(../images/statis-new.svg);
+	top: -75%;
+	left: -40%;
+	width: 1093px;
+	height: 1129px;
+}
+
+.statistics-section .clock-img {
+	right: 250px;
+	top: calc(50% - 160px);
+}
+
+.statistics-section .clock-img img {
+	transform: rotate(55deg);
+}
+
+.statistics-section .camera-img {
+	top: 15%;
+	left: 80px;
+	z-index: 99;
+}
+
+.statistics-section .camera-img img {
+	transform: rotate(35deg);
+}
+
+.statistics-section .knief-img {
+	top: -80px;
+	left: calc(50% + 300px);
+}
+
+.statistics-section .shoes-img {
+	bottom: -4vw;
+	left: 25%;
+	z-index: 99;
+}
+
+.statistics-section .frame-img {
+	bottom: -140px;
+	right: 30%;
+	z-index: 99;
+}
+
+/* Tour Section */
+.tour-guide .clock-img {
+	top: 50%;
+	left: 0;
+}
+.tour-guide .camera-img {
+	bottom: -4vw;
+	left: 40%;
+	z-index: 99;
+}
+
+.tour-guide .clock-img img {
+	transform: rotate(55deg);
+}
+
+
+
+.tour-guide .camera-img img,
+.subcribe-section .clock-img img {
+	transform: rotate(40deg);
+}
+
+.tour-guide .knief-img {
+	right: -30px;
+	top: 50%;
+}
+
+/* phoebe-section */
+.phoebe-section {
+	background-image: url(../images/handship-img.png);
+}
+
+.phoebe-section .knief-img {
+	top: 150px;
+	left: -15px;
+}
+
+.phoebe-section .frame-img {
+	right: -30px;
+	bottom: 25%;
+}
+
+.phoebe-section .shoes-img {
+	bottom: -100px;
+	right: 50%;
+	z-index: 999;
+	transform: translateX(50%)
+}
+
+/* subcribe-section */
+.subcribe-section {
+	background-image: url(../images/up-vectord.svg);
+	background-repeat: no-repeat;
+	background-position: top -24rem right -30rem;
+}
+
+.subcribe-container::before {
+	background-image: url(../images/down-vector.svg);
+	left: -32%;
+	top: calc(100% - 390px);
+	z-index: 0;
+}
+
+.subcribe-section .clock-img {
+	right: 120px;
+	bottom: 110px;
+}
+
+.subcribe-section .frame-img {
+	bottom: -5vw;
+	left: 50%;
+}
+
+.subcribe-section .light-lamp-img {
+	left: 90px;
+	top: 250px;
+	z-index: 99;
+}
+
+/*  */
+.form-control {
+	flex: 1 1 auto;
+	border-radius: 33px;
+	border-color: var(--text-white);
+	border: none;
+	padding: 10px 150px 10px 30px;
+}
+
+.btn-outline-secondary {
+	border-radius: 33px;
+	margin-left: -100px;
+	border: 1px solid var(--text-secondary);
+	padding: 15px 40px;
+}
+
+.btn-outline-secondary:hover {
+	color: var(--text-secondary);
+	background-color: var(--bg-secondary);
+	border: 1px solid var(--text-secondary);
+}
+
+.subcribe-section .input-btn {
+	background-color: var(--bg-primary);
+	border-radius: 33px;
+	color: var(--text-primary);
+	padding: 15px 45px;
+}
+
+/* footer */
+footer ul {
+	padding-inline-start: 0;
+}
+
+.icon {
+	background-color: var(--bg-white);
+	color: var(--bg-black);
+	height: 42px;
+	width: 42px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 800;
+	font-size: 25px;
+	border-radius: 50%;
+}
+
+/* End */
+/* media  Query start*/
+@media screen and (max-width:1600px) {
+	.our-team-section {
+		background-position: bottom -32rem right -33rem;
+	}
+
+	.our-team-cantainer::before {
+		top: 50%;
+		left: -55%;
+	}
+
+	.statistics-container::before {
+		top: -95%;
+		left: -40%;
+	}
+
+	.statistics-section .camera-img {
+		top: 10%;
+		left: 90px;
+	}
+
+	.statistics-section {
+		background-position: bottom -29rem right -40rem;
+	}
+
+	.subcribe-container::before {
+		left: -40%;
+		top: calc(100% - 430px);
+	}
+}
+
+@media screen and (max-width:1200px) {
+	.btn {
+		padding: 15px 60px 15px 60px;
+	}
+
+	.font-17 {
+		font-size: 16px;
+	}
+
+	.font-23,
+	.font-25 {
+		font-size: 20px;
+	}
+
+	.font-28 {
+		font-size: 22px;
+	}
+
+	.font-30,
+	.font-33 {
+		font-size: 25px;
+	}
+
+	.font-35 {
+		font-size: 30px;
+	}
+
+	.font-42 {
+		font-size: 35px;
+	}
+
+	.font-62,
+	.font-64 {
+		font-size: 50px;
+	}
+
+	.font-75,
+	.font-78 {
+		font-size: 55px;
+	}
+
+	/*  */
+	.pl-50 {
+		padding-left: 50px;
+	}
+
+	.our-team-cantainer::before {
+		top: 54%;
+		left: -70%;
+		z-index: 0;
+	}
+
+	.our-team-section .light-lamp-img {
+		left: 4%;
+	}
+
+	.our-team-section .shoes-img {
+		right: 50px;
+	}
+
+	.our-team-section .frame-img {
+		left: -110px;
+	}
+
+	.time-to-hike .light-lamp-img {
+		right: 110px;
+	}
+
+	.text-xl-center {
+		text-align: center;
+	}
+
+	.text-xl-end {
+		text-align: end;
+	}
+
+	.time-to-hike-content img,
+	.tour-guide-content img {
+		height: 350px;
+		width: 350px;
+	}
+
+	.statistics-container::before {
+		top: -100%;
+		left: -55%;
+	}
+
+	.statistics-section .camera-img {
+		top: 4%;
+	}
+
+	.statistics-section .clock-img {
+		right: 100px;
+		top: calc(50% - 225px);
+	}
+
+	.statistics-section .frame-img {
+		right: 15%;
+	}
+
+	.statistics-section .shoes-img {
+		left: 15%;
+	}
+
+	.tour-guide .clock-img {
+		top: 60%;
+	}
+
+	.justify-xl-content-center {
+		justify-content: center;
+	}
+
+	.gap-xl-50 {
+		gap: 50px;
+	}
+
+	.phoebe-section .knief-img {
+		top: 0px;
+	}
+
+	.subcribe-container::before {
+		left: -55%;
+		top: calc(100% - 360px);
+	}
+
+	.subcribe-section .light-lamp-img {
+		left: 50px;
+	}
+}
+
+@media screen and (max-width:1191px) {
+	.font-23 {
+		font-size: 20px;
+	}
+
+	.font-25,
+	.font-30 {
+		font-size: 18px;
+	}
+
+	.font-28 {
+		font-size: 22px;
+	}
+
+	.font-33 {
+		font-size: 25px;
+	}
+
+	.font-42 {
+		font-size: 30px;
+	}
+
+	.font-62,
+	.font-64,
+	.font-78 {
+		font-size: 45px;
+	}
+
+	.font-75 {
+		font-size: 50px;
+	}
+
+	.our-team-cantainer::before,
+	.statistics-container::before,
+	.subcribe-container::before {
+		display: none;
+	}
+
+	.our-team-section,
+	.statistics-section,
+	.subcribe-section {
+		background-image: none;
+	}
+}
+
+@media screen and (max-width:991px) {
+	.font-23 {
+		font-size: 18px;
+	}
+
+	.font-25,
+	.font-30 {
+		font-size: 16px;
+	}
+
+	.font-28,
+	.font-33,
+	.font-35 {
+		font-size: 20px;
+	}
+
+	.font-42 {
+		font-size: 25px;
+	}
+
+	.font-62,
+	.font-64,
+	.font-75,
+	.font-78 {
+		font-size: 40px;
+	}
+
+	.gap-50,
+	.gap-xl-50 {
+		gap: 30px;
+	}
+
+	.time-to-hike-content img,
+	.tour-guide-content img {
+		height: 300px;
+		width: 300px;
+	}
+
+	.border-primary,
+	.our-team-section .our-team-card img {
+		height: 200px;
+		width: 200px;
+	}
+
+	.pt-130 {
+		padding-top: 50px;
+	}
+
+	.pb-160,
+	.pb-138 {
+		padding-bottom: 100px;
+	}
+
+	.pt-182 {
+		padding-top: 130px;
+	}
+
+	.pt-50 {
+		padding-top: 20px;
+	}
+
+	.subcribe-section .clock-img,
+	.statistics-section .frame-img,
+	.statistics-section .clock-img,
+	.time-to-hike .light-lamp-img {
+		right: 0;
+	}
+
+	.statistics-section .camera-img,
+	.time-to-hike .clock-img {
+		left: 0;
+	}
+
+	.phoebe-section .shoes-img,
+	.subcribe-section .frame-img {
+		bottom: -45px;
+	}
+}
+
+@media screen and (max-width:768px) {
+
+	/*  */
+	.logo {
+		z-index: 999;
+	}
+	.checkbtn {
+		display: block;
+		z-index: 999;
+		text-align: end;
+		width: 100%;
+		color: var(--text-primary);
+	}
+
+	.menu {
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background-color: #2c3e50;
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+		z-index: 9;
+	}
+
+	.nav-bar .menu li {
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+
+	.nav-bar .menu {
+		display: block;
+	}
+
+	.nav-bar .menu li a {
+		font-size: 20px;
+	}
+	a.active,
+	a:hover {
+		outline: 1px solid white;
+		transition: .5s;
+	}
+	#check:checked~.menu {
+		left: 0;
+		top: -17px;
+	}
+	
+	.subcribe-section .light-lamp-img,
+	.subcribe-section .clock-img,
+	.statistics-section .clock-img,
+	.our-team-section .shoes-img {
+		display: none;
+	}
+
+	.statistics-section .camera-img {
+		top: 0;
+	}
+
+	.font-23,
+	.font-28 {
+		font-size: 16px;
+	}
+
+	.font-30 {
+		font-size: 14px;
+	}
+
+	.font-33,
+	.font-35 {
+		font-size: 18px;
+	}
+
+	.font-42 {
+		font-size: 20px;
+	}
+
+	.font-62,
+	.font-64,
+	.font-75,
+	.font-78 {
+		font-size: 30px;
+	}
+
+	.pl-50 {
+		padding-left: 10px;
+	}
+
+	.flex-md-column {
+		flex-direction: column;
+	}
+
+	.flex-md-wrap {
+		flex-wrap: wrap;
+	}
+
+	.mt-50 {
+		margin-top: 15px;
+	}
+
+	.time-to-hike-content img,
+	.tour-guide-content img {
+		height: 200px;
+		width: 200px;
+	}
+
+	.tour-guide .clock-img {
+		display: none;
+	}
+
+	.pb-160,
+	.pb-138 {
+		padding-bottom: 50px;
+	}
+
+	.col-4,
+	.col-7,
+	.col-8,
+	.col-9 {
+		width: 100%;
+	}
+
+	.ml-auto{
+		margin-left: auto;
+	}
+	/*  */
+}
+
+@media screen and (max-width:575px) {
+
+	.our-team-section .light-lamp-img,
+	.our-team-section .knief-img,
+	.our-team-section .camera-img,
+	.time-to-hike .light-lamp-img,
+	.time-to-hike .clock-img,
+	.statistics-section .camera-img,
+	.statistics-section .shoes-img,
+	.statistics-section .frame-img,
+	.statistics-section .knief-img,
+	.phoebe-section .knief-img,
+	.tour-guide .camera-img,
+	.phoebe-section .frame-img,
+	.phoebe-section .shoes-img,
+	.subcribe-section .frame-img,
+	.tour-guide .knief-img {
+		display: none;
+	}
+
+	.justify-sm-content-start {
+		justify-content: flex-start;
+	}
+
+	.flex-sm-wrap {
+		flex-wrap: wrap;
+	}
+
+	.flex-sm-column {
+		flex-direction: column;
+	}
+
+	.flex-sm-column-reverse {
+		flex-direction: column-reverse;
+	}
+
+	.font-30 {
+		font-size: 14px;
+	}
+
+	.font-33,
+	.font-35 {
+		font-size: 16px;
+	}
+
+	.font-42 {
+		font-size: 18px;
+	}
+
+	.font-62,
+	.font-64,
+	.font-75,
+	.font-78 {
+		font-size: 20px;
+	}
+
+	.btn {
+		padding: 10px 30px 10px 30px;
+	}
+
+	.pt-130 {
+		padding-top: 10px;
+	}
+
+	.pb-160,
+	.pb-138,
+	.pb-50 {
+		padding-bottom: 20px;
+	}
+
+	.pb-sm-10 {
+		padding-bottom: 10px;
+	}
+
+	.pt-182 {
+		padding-top: 30px;
+	}
+
+	.pt-50 {
+		padding-top: 20px;
+	}
+
+	.tour-guide .col-6,
+	.time-to-hike .col-6 {
+		width: 100%;
+		text-align: center;
+	}
+
+	.border-primary,
+	.our-team-section .our-team-card img {
+		height: 160px;
+		width: 160px;
+	}
+
+	.input-group input {
+		padding: 10px 20px 10px 20px;
+	}
+
+	.btn-outline-secondary {
+		padding: 10px 20px;
+	}
+
+	.gap-sm-50 {
+		gap: 10px;
+	}
+}
+
+@media screen and (max-width:320px) {}
+
+/* End */

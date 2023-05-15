@@ -331,6 +331,7 @@ a {
 }
 
 /* Position */
+
 .position-relative {
 	position: relative;
 }
@@ -339,8 +340,6 @@ a {
 	position: absolute;
 }
 
-/*  */
-/*  */
 /* Button */
 .btn {
 	border-radius: 33px;
@@ -386,7 +385,7 @@ ul li a:hover {
 /* banner-section */
 .banner-section,
 .phoebe-section {
-	background-image: url(../images/banner-imgs.png);
+	background-image: url(../images/banner-imgs.webp);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -553,7 +552,7 @@ ul li a:hover {
 
 /* phoebe-section */
 .phoebe-section {
-	background-image: url(../images/handship-img.png);
+	background-image: url(../images/handship-img.webp);
 }
 
 .phoebe-section .knief-img {

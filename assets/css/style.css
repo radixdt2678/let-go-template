@@ -57,21 +57,26 @@
 @font-face {
 	font-family: "Montserrat-bold";
 	src: url(../font/Montserrat-Bold.woff), url(../font/Montserrat-Bold.woff2);
+	font-display: swap;
 }
 
 @font-face {
 	font-family: "Montserrat-semiBold";
 	src: url(../font/Montserrat-SemiBold.woff), url(../font/Montserrat-SemiBold.woff2);
+	font-display: swap;
+
 }
 
 @font-face {
 	font-family: "Montserrat";
 	src: url(../font/Montserrat-Regular.woff), url(../font/Montserrat-Regular.woff2);
+	font-display: swap;
 }
 
 @font-face {
 	font-family: "Montserrat-Extrabold";
 	src: url(../font/Montserrat-ExtraBold.woff), url(../font/Montserrat-ExtraBold.woff2);
+	font-display: swap;
 }
 
 /*  */
